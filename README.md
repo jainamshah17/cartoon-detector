@@ -34,12 +34,12 @@ To train the model using darknet, run the following code:
   `./darknet detector train cfg/cartoon.data cfg/yolov2.cfg weights/yolov2_pretrained.weights `    
 
 *Accuracy*  
-  -Region Avg IOU : 87.8429  
-  -Class : 99.8973  
-  -Obj : 84.0069  
-  -Avg Recall : 100  
+  - Region Avg IOU : 87.8429  
+  - Class : 99.8973  
+  - Obj : 84.0069  
+  - Avg Recall : 100  
 *Losses*  
-  -Overall loss : 0.025661  
+  - Overall loss : 0.025661  
  #### Detection on Images
  To perform detection on image, run the following code:  
   `./darknet detector detect cfg/cartoon.data cfg/yolov2.cfg weights/cartoon_yolo.weights "path_to_img/img.jpg"`  
