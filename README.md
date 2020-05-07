@@ -46,10 +46,10 @@ To train the model using darknet, run the following code:
   `./darknet detector detect cfg/cartoon.data cfg/yolov2.cfg weights/cartoon_yolo.weights "path_to_img/img.jpg"`  
       
 Input Image:  
-![Input Image](https://github.com/jainamshah17/cartoon-detector/tree/master/Images/input.jpg)  
+![Input Image](https://github.com/jainamshah17/cartoon-detector/blob/master/images/input.jpg)  
   
 Output Image:  
-![Output Image](https://github.com/jainamshah17/cartoon-detector/tree/master/Images/output.jpg)  
+![Output Image](https://github.com/jainamshah17/cartoon-detector/blob/master/images/output.jpg)  
 #### Detection on Video 
   *Required to compile darknet with opencv=1 in Makefile*  
   To perform detection on video, run the following code:  
