@@ -38,6 +38,7 @@ To train the model using darknet, run the following code:
   - Class : 99.8973  
   - Obj : 84.0069  
   - Avg Recall : 100  
+    
 *Losses*  
   - Overall loss : 0.025661  
  #### Detection on Images
