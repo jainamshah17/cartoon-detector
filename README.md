@@ -44,10 +44,12 @@ To train the model using darknet, run the following code:
  #### Detection on Images
  To perform detection on image, run the following code:  
   `./darknet detector detect cfg/cartoon.data cfg/yolov2.cfg weights/cartoon_yolo.weights "path_to_img/img.jpg"`  
-  Input Image:  
-  ![Input Image](https://github.com/jainamshah17/capacited-vehicle-routing/blob/master/Images/magic.PNG)  
-  Output Image:  
-  ![Output Image](https://github.com/jainamshah17/capacited-vehicle-routing/blob/master/Images/magic.PNG)  
+      
+Input Image:  
+![Input Image](https://github.com/jainamshah17/capacited-vehicle-routing/blob/master/Images/magic.PNG)  
+  
+Output Image:  
+![Output Image](https://github.com/jainamshah17/capacited-vehicle-routing/blob/master/Images/magic.PNG)  
 #### Detection on Video 
   *Required to compile darknet with opencv=1 in Makefile*  
   To perform detection on video, run the following code:  
