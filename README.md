@@ -18,7 +18,7 @@ I have used [**yolov2**](https://arxiv.org/pdf/1612.08242.pdf) to train the mode
 #### Training  
 [**darknet**](https://github.com/AlexeyAB/darknet) - open source deep learning framework is used to train the model.  
 Model was initialized with [**yolov2's pre-trained weights**](https://pjreddie.com/darknet/yolo/)  
-Configuration file [**yolov2.cfg**] was changed as follow:
+Configuration file **yolov2.cfg** was changed as follow:
 ```
 237: filters=50
 244: classes=5
@@ -29,24 +29,25 @@ learning_rate = 0.001
 decay = 0.0005  
 momentum = 0.9  
 ```
+*Model was trained for 250 Epochs on google collab using batch size of 64 and subdivision of 4*    
 To train the model using darknet, run the following code:  
   `./darknet detector train cfg/cartoon.data cfg/yolov2.cfg weights/yolov2_pretrained.weights `    
-Model was trained for 250 Epochs on google collab using batch size of 64 and subdivision of 4, following are the training results:
-  *Accuracy*  
-      >Region Avg IOU : 87.8429  
-      >Class : 99.8973  
-      >Obj : 84.0069  
-      >Avg Recall : 100  
-  *Losses*  
-      >Overall loss : 0.025661  
- **Detection on Images**  
+
+*Accuracy*  
+  -Region Avg IOU : 87.8429  
+  -Class : 99.8973  
+  -Obj : 84.0069  
+  -Avg Recall : 100  
+*Losses*  
+  -Overall loss : 0.025661  
+ #### Detection on Images
  To perform detection on image, run the following code:  
   `./darknet detector detect cfg/cartoon.data cfg/yolov2.cfg weights/cartoon_yolo.weights "path_to_img/img.jpg"`  
   Input Image:  
   ![Input Image](https://github.com/jainamshah17/capacited-vehicle-routing/blob/master/Images/magic.PNG)  
   Output Image:  
   ![Output Image](https://github.com/jainamshah17/capacited-vehicle-routing/blob/master/Images/magic.PNG)  
-  **Detection on Video**  
+#### Detection on Video 
   *Required to compile darknet with opencv=1 in Makefile*  
   To perform detection on video, run the following code:  
   `./darknet detector demo cfg/cartoon.data cfg/yolov2.cfg weights/cartoon_yolo.weights "path_to_video/video.mp4"`  
