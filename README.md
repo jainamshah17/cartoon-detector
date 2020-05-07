@@ -2,31 +2,31 @@
 *Project for fun / time-pass to utilize quarantine period* 😜  
 A deep learning model that detects which cartoon is there in the image or video using YOLO(You Only Look Once) Object Detection algorithm
 ## Dataset
-The dataset consists of 1472 images belonging to 5 different cartoon categories:
+The dataset consists of 1472 images belonging to 5 different cartoon categories:  
   1. Shinchan - 336
   2. Doraemon - 362
   3. Detective Conan - 295
   4. Mr Bean (animated) - 240
-  5. Naruto - 239
-**Gathering Images**
+  5. Naruto - 239  
+**Gathering Images**  
 Images were downloaded using [**Bing Image Search API**](https://azure.microsoft.com/en-in/services/cognitive-services/bing-image-search-api/) <- Click here to know more  
-Search queries included : "shinchan", "doraemon", "detective conan", "mr bean animated", "naruto"
-**Annoting Images**
+Search queries included : "shinchan", "doraemon", "detective conan", "mr bean animated", "naruto"  
+**Annoting Images**  
 Images were annoted using [**Label Img Tool**](https://www.arunponnusamy.com/preparing-custom-dataset-for-training-yolo-object-detector.html) <- Read this blog for more details  
-## Deep Learning Model
-I have used [**yolov2**](https://arxiv.org/pdf/1612.08242.pdf) to train the model
-**Training**
-[**darknet**](https://github.com/AlexeyAB/darknet) - open source deep learning framework is used to train the model.
-Model was initialized with [**yolov2's pre-trained weights**](https://pjreddie.com/darknet/yolo/)
-Configuration file [**yolov2.cfg**] was changed as follow:
+## Deep Learning Model  
+I have used [**yolov2**](https://arxiv.org/pdf/1612.08242.pdf) to train the model  
+**Training**  
+[**darknet**](https://github.com/AlexeyAB/darknet) - open source deep learning framework is used to train the model.  
+Model was initialized with [**yolov2's pre-trained weights**](https://pjreddie.com/darknet/yolo/)  
+Configuration file [**yolov2.cfg**] was changed as follow:  
 ```
 237: filters=50
 244: classes=5
-```
-Model was initialized with following training parameters:
-  learning_rate = 0.001
-  decay = 0.0005
-  momentum = 0.9
+```  
+Model was initialized with following training parameters:  
+  learning_rate = 0.001  
+  decay = 0.0005  
+  momentum = 0.9  
 To train the model using darknet, run the following code:
   `./darknet detector train cfg/cartoon.data cfg/yolov2.cfg weights/yolov2_pretrained.weights `
 Model was trained for 250 Epochs on google collab using batch size of 64 and subdivision of 4, following are the training results:
