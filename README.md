@@ -7,10 +7,10 @@ The dataset consists of 1472 images belonging to 5 different cartoon categories:
   2. Doraemon - 362
   3. Detective Conan - 295
   4. Mr Bean (animated) - 240
-  5. Naruto - 239  
+  5. Naruto - 239
 **Gathering Images**  
 Images were downloaded using [**Bing Image Search API**](https://azure.microsoft.com/en-in/services/cognitive-services/bing-image-search-api/) <- Click here to know more  
-Search queries included : "shinchan", "doraemon", "detective conan", "mr bean animated", "naruto"  
+Search queries included : "shinchan", "doraemon", "detective conan", "mr bean animated", "naruto"
 **Annoting Images**  
 Images were annoted using [**Label Img Tool**](https://www.arunponnusamy.com/preparing-custom-dataset-for-training-yolo-object-detector.html) <- Read this blog for more details  
 ## Deep Learning Model  
