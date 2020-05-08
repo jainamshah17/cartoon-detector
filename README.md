@@ -51,7 +51,7 @@ Input Image:
 Output Image:  
 ![Output Image](https://github.com/jainamshah17/cartoon-detector/blob/master/images/outputs/bean_4.jpg)  
   
-*Refer to "images" folder for more
+*Refer to "images" folder for more*
 #### Detection on Video 
   *Required to compile darknet with opencv=1 in Makefile*  
   To perform detection on video, run the following code:  
