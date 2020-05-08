@@ -36,10 +36,14 @@ I have used [**yolov2**](https://arxiv.org/pdf/1612.08242.pdf) object detection 
   
 Model was initialized with [**yolov2's pre-trained weights**](https://pjreddie.com/darknet/yolo/)  
   
-Configuration file **yolov2.cfg** was changed as follow:
+Configuration file **yolov2.cfg** was changed, filters in last convolutional layer and no of classes
 ```
 237: filters=50
 244: classes=5
+```  
+No. of Filters are calculated using the following formula, so if you are training on different dataset, change accordingly
+```
+filters = (5 + no. of classes) * 5
 ```  
 Model was initialized with following training parameters:  
 ```
