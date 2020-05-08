@@ -1,6 +1,6 @@
 # **Cartoon Detector**
 *Project for fun / time-pass to utilize quarantine period* 😜  
-A deep learning model that detects which cartoon is there in the image or video using YOLO(You Only Look Once) Object Detection algorithm
+A deep learning model that detects which cartoon is there in the image or video using YOLO Object Detection algorithm
 ## Dataset
 The dataset consists of 1472 images belonging to 5 different cartoon categories:
 1. Shinchan - 336
