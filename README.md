@@ -20,7 +20,7 @@ pip install labelimg
 ```  
 Once labelImg is successfully installed, launch it by typing:  
 ```
-labelImg [path to image] [classes file]
+labelImg [path to image directory] [classes file]
 ```    
 ## Deep Learning Model
 I have used [**yolov2**](https://arxiv.org/pdf/1612.08242.pdf) to train the model  
