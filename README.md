@@ -11,7 +11,7 @@ The dataset consists of 1472 images belonging to 5 different cartoon categories 
 ### Gathering Images
 Images were downloaded using [**Bing Image Search API**](https://azure.microsoft.com/en-in/services/cognitive-services/bing-image-search-api/)  
 Search queries included : "shinchan", "doraemon", "detective conan", "mr bean animated", "naruto"  
-[Script](https://github.com/jainamshah17/cartoon-detector/blob/master/scripts/bing_images.py) to download images using bing image search api  
+Here is the [Script](https://github.com/jainamshah17/cartoon-detector/blob/master/scripts/bing_images.py) to download images using bing image search api  
   
 ### Annoting Images
 Images were annoted using [**Label Img Tool**](https://www.arunponnusamy.com/preparing-custom-dataset-for-training-yolo-object-detector.html)  
