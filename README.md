@@ -16,9 +16,13 @@ Here is the [Script](https://github.com/jainamshah17/cartoon-detector/blob/maste
 ### Annoting Images
 Images were annoted using [**Label Img Tool**](https://github.com/tzutalin/labelImg)  
 You can easily install LabelImg with pip from the Terminal:  
-`pip install labelimg`  
-Once labelImg is successfully installed, launch it by typing:
-`labelImg [path to image] [classes file]`  
+```
+pip install labelimg
+```  
+Once labelImg is successfully installed, launch it by typing:  
+```
+labelImg [path to image] [classes file]
+```    
 ## Deep Learning Model
 I have used [**yolov2**](https://arxiv.org/pdf/1612.08242.pdf) to train the model  
 ### Training  
