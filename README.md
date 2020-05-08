@@ -2,7 +2,7 @@
 *Project for fun / time-pass to utilize quarantine period* 😜  
 A deep learning model that detects which cartoon is there in the image or video using YOLO Object Detection algorithm
 ## Dataset
-The dataset consists of 1472 images belonging to 5 different cartoon categories:
+The dataset consists of 1472 images belonging to 5 different cartoon categories and 1258 annotation files (txt - yolo format):
 1. Shinchan - 336
 2. Doraemon - 362
 3. Detective Conan - 295
