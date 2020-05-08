@@ -1,7 +1,7 @@
-classes= 5
-train  = train.txt
-valid  = test.txt
+classes = 5
+train  = data/train.txt
+valid  = data/test.txt
 names = cfg/cartoon.names
 backup = weights/
-eval=coco
+
 
