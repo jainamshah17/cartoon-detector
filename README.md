@@ -86,7 +86,9 @@ To perform detection on image, run the following code:
 *Required to compile darknet with opencv=1 in Makefile*  
   
 To perform detection on video, run the following code:  
-  `./darknet detector demo cfg/cartoon.data cfg/yolov2.cfg weights/cartoon_yolo.weights "path_to_video/video.mp4"`  
+  ```
+  ./darknet detector demo cfg/cartoon.data cfg/yolov2.cfg weights/cartoon_yolo.weights "path_to_video/video.mp4"
+  ```  
 ## References  
 - [Yolov2](https://arxiv.org/pdf/1612.08242.pdf)  
 - [Darknet](https://github.com/AlexeyAB/darknet)  
