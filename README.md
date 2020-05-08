@@ -8,16 +8,16 @@ The dataset consists of 1472 images belonging to 5 different cartoon categories 
 3. Detective Conan - 295
 4. Mr Bean (animated) - 240
 5. Naruto - 239  
-#### Gathering Images
+### Gathering Images
 Images were downloaded using [**Bing Image Search API**](https://azure.microsoft.com/en-in/services/cognitive-services/bing-image-search-api/)  
 Search queries included : "shinchan", "doraemon", "detective conan", "mr bean animated", "naruto"  
 [Script](https://github.com/jainamshah17/cartoon-detector/blob/master/scripts/bing_images.py) to download images using bing image search api  
   
-#### Annoting Images
+### Annoting Images
 Images were annoted using [**Label Img Tool**](https://www.arunponnusamy.com/preparing-custom-dataset-for-training-yolo-object-detector.html)  
 ## Deep Learning Model
 I have used [**yolov2**](https://arxiv.org/pdf/1612.08242.pdf) to train the model  
-#### Training  
+### Training  
 [**darknet**](https://github.com/AlexeyAB/darknet) - open source deep learning framework is used to train the model.  
 Model was initialized with [**yolov2's pre-trained weights**](https://pjreddie.com/darknet/yolo/)  
 Configuration file **yolov2.cfg** was changed as follow:
@@ -43,8 +43,8 @@ To train the model using darknet, run the following code:
     
 *Losses*  
   - Overall loss : 0.025661  
- #### Detection on Images
- To perform detection on image, run the following code:  
+### Detection on Images
+To perform detection on image, run the following code:  
   `./darknet detector test cfg/cartoon.data cfg/yolov2.cfg weights/cartoon_yolo.weights "path_to_img/img.jpg"`  
       
 Input Image:  
@@ -54,12 +54,12 @@ Output Image:
 ![Output Image](https://github.com/jainamshah17/cartoon-detector/blob/master/images/outputs/bean_4.jpg)  
   
 *Refer to "images" folder for more*
-#### Detection on Video 
-  *Required to compile darknet with opencv=1 in Makefile*  
-  To perform detection on video, run the following code:  
+### Detection on Video 
+*Required to compile darknet with opencv=1 in Makefile*  
+To perform detection on video, run the following code:  
   `./darknet detector demo cfg/cartoon.data cfg/yolov2.cfg weights/cartoon_yolo.weights "path_to_video/video.mp4"`  
-  ## References  
-  - [Yolov2](https://arxiv.org/pdf/1612.08242.pdf)  
-  - [Darknet](https://github.com/AlexeyAB/darknet)  
-  - [LabelImg](https://github.com/tzutalin/labelImg)  
-  - [Bing Search Api](https://azure.microsoft.com/en-in/services/cognitive-services/bing-image-search-api/)  
+## References  
+- [Yolov2](https://arxiv.org/pdf/1612.08242.pdf)  
+- [Darknet](https://github.com/AlexeyAB/darknet)  
+- [LabelImg](https://github.com/tzutalin/labelImg)  
+- [Bing Search Api](https://azure.microsoft.com/en-in/services/cognitive-services/bing-image-search-api/)  
