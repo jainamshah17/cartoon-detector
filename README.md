@@ -14,8 +14,7 @@ Search queries included : "shinchan", "doraemon", "detective conan", "mr bean an
 Here is the [Script](https://github.com/jainamshah17/cartoon-detector/blob/master/scripts/bing_images.py) to download images using bing image search api  
   
 ### Annoting Images
-Images were annoted using [**Label Img Tool**](https://github.com/tzutalin/labelImg)  
-You can easily install LabelImg with pip from the Terminal:  
+Images were annoted using [**Label Img Tool**](https://github.com/tzutalin/labelImg), you can easily install LabelImg with pip from the Terminal:  
 ```
 pip install labelimg
 ```  
