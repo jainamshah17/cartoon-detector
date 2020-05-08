@@ -36,7 +36,7 @@ I have used [**yolov2**](https://arxiv.org/pdf/1612.08242.pdf) object detection 
   
 Model was initialized with [**yolov2's pre-trained weights**](https://pjreddie.com/darknet/yolo/)  
   
-Configuration file **yolov2.cfg** was changed, filters in last convolutional layer and no of classes
+Configuration file **yolov2.cfg** was changed, filters in last convolutional layer and no of classes as:  
 ```
 237: filters=50
 244: classes=5
