@@ -30,10 +30,12 @@ After launching labelimg, you can draw bounding box around the objects and it wi
   
 Refer to this [video](https://youtu.be/zSda1AoUTkc) if any doubts
 ## Deep Learning Model
-I have used [**yolov2**](https://arxiv.org/pdf/1612.08242.pdf) to train the model  
+I have used [**yolov2**](https://arxiv.org/pdf/1612.08242.pdf) object detection algorithm  
 ### Training  
-[**darknet**](https://github.com/AlexeyAB/darknet) - open source deep learning framework is used to train the model.  
+[**darknet**](https://github.com/AlexeyAB/darknet) - open source deep learning framework is used to train the model. I won't explain how to install darknet, refer [link](https://pjreddie.com/darknet/install/) for installation.  
+  
 Model was initialized with [**yolov2's pre-trained weights**](https://pjreddie.com/darknet/yolo/)  
+  
 Configuration file **yolov2.cfg** was changed as follow:
 ```
 237: filters=50
