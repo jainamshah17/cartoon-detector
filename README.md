@@ -45,7 +45,7 @@ No. of Filters are calculated using the following formula, so if you are trainin
 ```
 filters = (5 + no. of classes) * 5
 ```  
-Note: No. of classes should match with no. of classes in your labels file  
+**Note:** No. of classes in cfg file should match with no. of classes in your labels file  
   
 Model was initialized with following training parameters:  
 ```
@@ -54,9 +54,10 @@ decay = 0.0005
 momentum = 0.9  
 ```
 *Model was trained for 250 Epochs on google collab using batch size of 64 and subdivision of 4*    
+  
 To train the model using darknet, run the following code:  
   `./darknet detector train cfg/cartoon.data cfg/yolov2.cfg weights/yolov2_pretrained.weights `    
-
+  
 *Accuracy*  
   - Region Avg IOU : 87.8429  
   - Class : 99.8973  
@@ -69,15 +70,17 @@ To train the model using darknet, run the following code:
 To perform detection on image, run the following code:  
   `./darknet detector test cfg/cartoon.data cfg/yolov2.cfg weights/cartoon_yolo.weights "path_to_img/img.jpg"`  
       
-Input Image:  
+**Input Image**  
 ![Input Image](https://github.com/jainamshah17/cartoon-detector/blob/master/images/inputs/bean_4.jpg)  
   
-Output Image:  
+**Output Image**  
 ![Output Image](https://github.com/jainamshah17/cartoon-detector/blob/master/images/outputs/bean_4.jpg)  
   
-*Refer to "images" folder for more*
-### Detection on Video 
+*Refer to "images" folder for more*  
+  
+### Detection on Video  
 *Required to compile darknet with opencv=1 in Makefile*  
+  
 To perform detection on video, run the following code:  
   `./darknet detector demo cfg/cartoon.data cfg/yolov2.cfg weights/cartoon_yolo.weights "path_to_video/video.mp4"`  
 ## References  
