@@ -21,7 +21,9 @@ pip install labelimg
 Once labelImg is successfully installed, launch it by typing:  
 ```
 labelImg [path to image directory] [classes file]
-```    
+```  
+After launching labelimg, you can draw bounding box around the objects and it will automatically save them in a seperate .txt file, don't forget to change format to "yolo" in labelimg  
+![labelImg]()
 ## Deep Learning Model
 I have used [**yolov2**](https://arxiv.org/pdf/1612.08242.pdf) to train the model  
 ### Training  
