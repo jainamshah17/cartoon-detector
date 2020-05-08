@@ -14,7 +14,7 @@ Search queries included : "shinchan", "doraemon", "detective conan", "mr bean an
 Here is the [Script](https://github.com/jainamshah17/cartoon-detector/blob/master/scripts/bing_images.py) to download images using bing image search api  
   
 ### Annoting Images
-Images were annoted using [**Label Img Tool**](https://www.arunponnusamy.com/preparing-custom-dataset-for-training-yolo-object-detector.html)  
+Images were annoted using [**Label Img Tool**](https://github.com/tzutalin/labelImg)  
 ## Deep Learning Model
 I have used [**yolov2**](https://arxiv.org/pdf/1612.08242.pdf) to train the model  
 ### Training  
