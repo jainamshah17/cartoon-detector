@@ -69,7 +69,7 @@ To train the model using darknet, run the following code:
 *Losses*  
   - Overall loss : 0.025661  
     
-**Trained Weights File** [Download from here](https://drive.google.com/file/d/1zx5nlMvY95NlH1qmDjS8TWo2a0N2Nspi/view)  
+### Trained Weights File [Download from here](https://drive.google.com/file/d/1zx5nlMvY95NlH1qmDjS8TWo2a0N2Nspi/view)  
 ### Detection on Images
 To perform detection on image, run the following code:  
   ```
