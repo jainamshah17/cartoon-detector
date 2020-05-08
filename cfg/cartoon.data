@@ -1,0 +1,7 @@
+classes= 5
+train  = train.txt
+valid  = test.txt
+names = cfg/cartoon.names
+backup = weights/
+eval=coco
+
