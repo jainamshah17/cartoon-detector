@@ -56,7 +56,9 @@ momentum = 0.9
 *Model was trained for 250 Epochs on google collab using batch size of 64 and subdivision of 4*    
   
 To train the model using darknet, run the following code:  
-  `./darknet detector train cfg/cartoon.data cfg/yolov2.cfg weights/yolov2_pretrained.weights `    
+  ```
+  ./darknet detector train cfg/cartoon.data cfg/yolov2.cfg weights/yolov2_pretrained.weights
+  ```
   
 *Accuracy*  
   - Region Avg IOU : 87.8429  
@@ -68,7 +70,9 @@ To train the model using darknet, run the following code:
   - Overall loss : 0.025661  
 ### Detection on Images
 To perform detection on image, run the following code:  
-  `./darknet detector test cfg/cartoon.data cfg/yolov2.cfg weights/cartoon_yolo.weights "path_to_img/img.jpg"`  
+  ```
+  ./darknet detector test cfg/cartoon.data cfg/yolov2.cfg weights/cartoon_yolo.weights "path_to_img/img.jpg"
+  ```  
       
 **Input Image**  
 ![Input Image](https://github.com/jainamshah17/cartoon-detector/blob/master/images/inputs/bean_4.jpg)  
