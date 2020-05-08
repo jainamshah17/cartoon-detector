@@ -45,6 +45,8 @@ No. of Filters are calculated using the following formula, so if you are trainin
 ```
 filters = (5 + no. of classes) * 5
 ```  
+Note: No. of classes should match with no. of classes in your labels file  
+  
 Model was initialized with following training parameters:  
 ```
 learning_rate = 0.001  
