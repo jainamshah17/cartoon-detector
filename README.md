@@ -10,7 +10,9 @@ The dataset consists of 1472 images belonging to 5 different cartoon categories 
 5. Naruto - 239  
 ### Gathering Images
 Images were downloaded using [**Bing Image Search API**](https://azure.microsoft.com/en-in/services/cognitive-services/bing-image-search-api/)  
+  
 Search queries included : "shinchan", "doraemon", "detective conan", "mr bean animated", "naruto"  
+  
 Here is the [Script](https://github.com/jainamshah17/cartoon-detector/blob/master/scripts/bing_images.py) to download images using bing image search api  
   
 ### Annoting Images
@@ -23,6 +25,7 @@ Once labelImg is successfully installed, launch it by typing:
 labelImg [path to image directory] [classes file]
 ```  
 After launching labelimg, you can draw bounding box around the objects and it will automatically save them in a seperate .txt file, don't forget to change format to "yolo" in labelimg  
+  
 ![labelImg](https://github.com/jainamshah17/cartoon-detector/blob/master/images/labelimg.jpg)  
 ## Deep Learning Model
 I have used [**yolov2**](https://arxiv.org/pdf/1612.08242.pdf) to train the model  
