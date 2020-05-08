@@ -68,15 +68,15 @@ To train the model using darknet, run the following code:
     
 *Losses*  
   - Overall loss : 0.025661  
-    
-_**Trained Weights File - Cartoon Detector** [Download from here](https://drive.google.com/file/d/1zx5nlMvY95NlH1qmDjS8TWo2a0N2Nspi/view)_  
   
 ### Detection on Images
 To perform detection on image, run the following code:  
   ```
   ./darknet detector test cfg/cartoon.data cfg/yolov2.cfg weights/cartoon_yolo.weights "path_to_img/img.jpg"
   ```  
-      
+  
+ _**Trained Weights File - Cartoon Detector** [Download from here](https://drive.google.com/file/d/1zx5nlMvY95NlH1qmDjS8TWo2a0N2Nspi/view)_  
+   
 **Input Image**  
 ![Input Image](https://github.com/jainamshah17/cartoon-detector/blob/master/images/inputs/bean_4.jpg)  
   
