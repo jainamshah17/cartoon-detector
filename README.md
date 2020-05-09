@@ -86,8 +86,8 @@ To perform detection on image, run the following code:
   
 <div align="center">
   <div class="column">
-    <img src="https://github.com/jainamshah17/cartoon-detector/blob/master/media/inputs/bean_4.jpg" width="40%" hspace="3">
-    <img src="https://github.com/jainamshah17/cartoon-detector/blob/master/media/outputs/bean_4.jpg" width="40%" hspace="3">
+    <img src="https://github.com/jainamshah17/cartoon-detector/blob/master/media/inputs/bean_4.jpg" width="50%" hspace="3">
+    <img src="https://github.com/jainamshah17/cartoon-detector/blob/master/media/outputs/bean_4.jpg" width="50%" hspace="3">
   </div>
 </div>
   
