@@ -1,8 +1,7 @@
 # **Cartoon Detector**
 *Project for fun / time-pass to utilize quarantine period* 😜  
 A deep learning model that detects which cartoon is there in the image or video using YOLO Object Detection algorithm  
-  
-   ![Mr Bean](https://github.com/jainamshah17/cartoon-detector/blob/master/media/bean.gif)
+                  ![Mr Bean](https://github.com/jainamshah17/cartoon-detector/blob/master/media/bean.gif)
 ## Dataset
 The dataset consists of 1472 images belonging to 5 different cartoon categories and 1258 annotation files (yolo format):
 1. Shinchan - 336
