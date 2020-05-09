@@ -3,7 +3,7 @@
 A deep learning model that detects which cartoon is there in the image or video using YOLO Object Detection algorithm  
   
 <p align="center">
-<img src="https://github.com/jainamshah17/cartoon-detector/blob/master/media/bean.gif" width="75%"/>
+<img src="https://github.com/jainamshah17/cartoon-detector/blob/master/media/bean.gif" width="90%"/>
 </p>
   
 ## Dataset
