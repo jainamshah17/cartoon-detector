@@ -185,29 +185,4 @@ end = time.time()
 total_time = round(end-start,2)
 print("[INFO] Time : {} sec" .format(total_time))
 
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
