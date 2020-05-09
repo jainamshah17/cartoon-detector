@@ -26,7 +26,7 @@ labelImg [path to image directory] [classes file]
 ```  
 After launching labelimg, you can draw bounding box around the objects and it will automatically save them in a seperate .txt file, don't forget to change format to "yolo" in labelimg  
   
-![labelImg](https://github.com/jainamshah17/cartoon-detector/blob/master/images/labelimg.jpg)  
+![labelImg](https://github.com/jainamshah17/cartoon-detector/blob/master/media/labelimg.jpg)  
   
 Refer to this [video](https://youtu.be/zSda1AoUTkc) if any doubts
 ## Deep Learning Model
@@ -80,10 +80,10 @@ To perform detection on image, run the following code:
   ```
     
 **Input Image**  
-![Input Image](https://github.com/jainamshah17/cartoon-detector/blob/master/images/inputs/bean_4.jpg)  
+![Input Image](https://github.com/jainamshah17/cartoon-detector/blob/master/media/inputs/bean_4.jpg)  
   
 **Output Image**  
-![Output Image](https://github.com/jainamshah17/cartoon-detector/blob/master/images/outputs/bean_4.jpg)  
+![Output Image](https://github.com/jainamshah17/cartoon-detector/blob/master/media/outputs/bean_4.jpg)  
   
 *Refer to "images" folder for more*  
     
