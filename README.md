@@ -69,15 +69,15 @@ To train the model using darknet, run the following code:
 *Losses*  
   - Overall loss : 0.025661  
   
-### Detection
+### Detection  
+_**Trained Weights File - Cartoon Detector** [Download from here](https://drive.google.com/file/d/1zx5nlMvY95NlH1qmDjS8TWo2a0N2Nspi/view)_  
+   
 **1. Using darknet**  
 To perform detection on image, run the following code:  
   ```
   ./darknet detector test cfg/cartoon.data cfg/yolov2.cfg weights/cartoon_yolo.weights "path_to_img/img.jpg"
-  ```  
-  
- _**Trained Weights File - Cartoon Detector** [Download from here](https://drive.google.com/file/d/1zx5nlMvY95NlH1qmDjS8TWo2a0N2Nspi/view)_  
-   
+  ```
+    
 **Input Image**  
 ![Input Image](https://github.com/jainamshah17/cartoon-detector/blob/master/images/inputs/bean_4.jpg)  
   
@@ -85,14 +85,13 @@ To perform detection on image, run the following code:
 ![Output Image](https://github.com/jainamshah17/cartoon-detector/blob/master/images/outputs/bean_4.jpg)  
   
 *Refer to "images" folder for more*  
-  
-### Detection on Video  
-*Required to compile darknet with opencv=1 in Makefile*  
-  
+    
 To perform detection on video, run the following code:  
   ```
   ./darknet detector demo cfg/cartoon.data cfg/yolov2.cfg weights/cartoon_yolo.weights "path_to_video/video.mp4"
   ```  
+*Required to compile darknet with opencv=1 in Makefile*  
+  
 ## References  
 - [Yolov2](https://arxiv.org/pdf/1612.08242.pdf)  
 - [Darknet](https://github.com/AlexeyAB/darknet)  
