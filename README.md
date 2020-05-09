@@ -69,7 +69,8 @@ To train the model using darknet, run the following code:
 *Losses*  
   - Overall loss : 0.025661  
   
-### Detection on Images
+### Detection
+**1. Using darknet**  
 To perform detection on image, run the following code:  
   ```
   ./darknet detector test cfg/cartoon.data cfg/yolov2.cfg weights/cartoon_yolo.weights "path_to_img/img.jpg"
