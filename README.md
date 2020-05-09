@@ -101,9 +101,9 @@ pip install opencv-python
 ```  
 To perform detection on an image or a video file, you can execute "cartoon.py" script in terminal as follow:
 ```
-python cartoon.py --classes cfg/cartoon.names --config cfg/yolov2.cfg --weights path_to_weights/cartoon_yolo.weights --file path_to_file/img.jpg --confidence 0.5 --threshold 0.3
+python cartoon.py --classes cfg/cartoon.names --config cfg/yolov2.cfg --weights path_to_weights/cartoon_yolo.weights --file path_to_file/img.jpg [--confidence CONFIDENCE] [--threshold THRESHOLD]
 ```  
-
+You can specify either an image file or a video file in --file argument
 
 ## References  
 - [Yolov2](https://arxiv.org/pdf/1612.08242.pdf)  
