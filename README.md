@@ -73,6 +73,7 @@ To train the model using darknet, run the following code:
 _**Trained Weights File - Cartoon Detector** [Download from here](https://drive.google.com/file/d/1zx5nlMvY95NlH1qmDjS8TWo2a0N2Nspi/view)_  
    
 **1) Using darknet**  
+  
 To perform detection on image, run the following code:  
   ```
   ./darknet detector test cfg/cartoon.data cfg/yolov2.cfg weights/cartoon_yolo.weights "path_to_img/img.jpg"
@@ -93,14 +94,16 @@ To perform detection on video, run the following code:
 *Required to compile darknet with opencv=1 in Makefile*  
   
 **2) Using opencv**    
+  
 If you are facing difficulties in using darknet or installing darknet, there is an easy way to perform detection using opencv. You can install opencv with pip from terminal
 ```
 pip install opencv-python
 ```  
 To perform detection on an image or a video file, you can execute "cartoon.py" script in terminal as follow:
 ```
-python cartoon.py --classes cfg/cartoon.names --config cfg/yolov2.cfg --weights path_to_weights/cartoon_yolo.weights --file path_to_file/file.jpg or file.mp4
+python cartoon.py --classes cfg/cartoon.names --config cfg/yolov2.cfg --weights path_to_weights/cartoon_yolo.weights --file path_to_file/img.jpg --confidence 0.5 --threshold 0.3
 ```  
+
 
 ## References  
 - [Yolov2](https://arxiv.org/pdf/1612.08242.pdf)  
