@@ -2,7 +2,10 @@
 *Project for fun / time-pass to utilize quarantine period* 😜  
 A deep learning model that detects which cartoon is there in the image or video using YOLO Object Detection algorithm  
   
-1) [Dataset](#Dataset)
+1) [Dataset](#dataset)
+   1.1) [Gathering Images](#gathering-images)
+   1.2) [Annoting Images](#annoting-images)
+2) [Deep Learning Model](#deep-learning-model)
   
 <p align="center">
 <img src="https://github.com/jainamshah17/cartoon-detector/blob/master/media/bean.gif" width="100%"/>
