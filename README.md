@@ -6,6 +6,8 @@ A deep learning model that detects which cartoon is there in the image or video 
    1) [Gathering Images](#gathering-images)
    2) [Annoting Images](#annoting-images)
 2) [Deep Learning Model](#deep-learning-model)
+   1) [Training](#training)
+   2) [Detection](#detection)
   
 <p align="center">
 <img src="https://github.com/jainamshah17/cartoon-detector/blob/master/media/bean.gif" width="100%"/>
