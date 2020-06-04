@@ -2,6 +2,7 @@
 ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)
 ![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)  
+  
 *Project for fun / time-pass to utilize quarantine period* 😜  
   
 A deep learning model that detects which cartoon is there in the image or video using YOLO Object Detection algorithm  
